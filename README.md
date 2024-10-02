@@ -3,10 +3,15 @@
 
 ### Table of Contents
 Overview
+
 Prerequisites
+
 Installation
+
 Project Structure
+
 Steps
+
 1. Scrape Comments
 2. Pre-process Comments
 3. Generate TF-IDF Vectors
@@ -24,12 +29,12 @@ Saves the TF-IDF vectors into a pickle file (tfidf_vectors.pkl) for further anal
 ## Prerequisites
 Before running the project, ensure you have the following installed:
 
-Python 
-pandas
-youtube-comment-downloader
-scikit-learn
-nltk
-pickle
+-Python 
+-pandas
+-youtube-comment-downloader
+-scikit-learn
+-nltk
+-pickle
 
 ## Steps
 1. Scrape Comments
@@ -45,10 +50,11 @@ Save the generated TF-IDF vectors into a pickle file (tfidf_vectors.pkl), which 
 ### Additional Notes:
 Make sure to replace the URL and repository name in the Installation section with your own GitHub repository details.
 The requirements.txt file should include the following:
-pandas
-youtube-comment-downloader
-scikit-learn
-nltk
+
+-pandas
+-youtube-comment-downloader
+-scikit-learn
+-nltk
 
 
 
